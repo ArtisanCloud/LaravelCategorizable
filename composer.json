@@ -1,0 +1,35 @@
+{
+    "name": "artisan-cloud/laravel-categorizable",
+    "description": "This package is a tool to help make categories to any object",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "michael hu",
+            "email": "hbj148@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArtisanCloud\\Categorizable\\": "./"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ArtisanCloud\\Categorizable\\Test": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArtisanCloud\\Categorizable\\Providers\\CategorizableServiceProvider"
+            ]
+        }
+    }
+}
