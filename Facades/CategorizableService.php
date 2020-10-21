@@ -1,12 +1,12 @@
 <?php
 
-namespace ArtisanCloud\LaravelCategorizable\Facades;
+namespace ArtisanCloud\Categorizable\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class CategorizableService
- * @package ArtisanCloud\LaravelCategorizable
+ * @package ArtisanCloud\Categorizable
  */
 class CategorizableService extends Facade
 {

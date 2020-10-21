@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtisanCloud\LaravelCategorizable\Contracts;
+namespace ArtisanCloud\Categorizable\Contracts;
 
 /**
  * Interface CategorizableServiceContract
- * @package ArtisanCloud\LaravelCategorizable\Contracts
+ * @package ArtisanCloud\Categorizable\Contracts
  */
 interface CategorizableServiceContract
 {

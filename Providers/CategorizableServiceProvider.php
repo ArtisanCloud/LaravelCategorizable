@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtisanCloud\LaravelCategorizable\Providers;
+namespace ArtisanCloud\Categorizable\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use ArtisanCloud\LaravelCategorizable\Contracts\CategorizableServiceContract;
-use ArtisanCloud\LaravelCategorizable\CategorizableService;
+use ArtisanCloud\Categorizable\Contracts\CategorizableServiceContract;
+use ArtisanCloud\Categorizable\CategorizableService;
 
 /**
  * Class CategorizableServiceProvider

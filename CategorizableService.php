@@ -1,12 +1,12 @@
 <?php
 
-namespace ArtisanCloud\LaravelCategorizable;
+namespace ArtisanCloud\Categorizable;
 
-use ArtisanCloud\LaravelCategorizable\Contracts\CategorizableServiceContract;
+use ArtisanCloud\Categorizable\Contracts\CategorizableServiceContract;
 
 /**
  * Class CategorizableService
- * @package ArtisanCloud\LaravelCategorizable
+ * @package ArtisanCloud\Categorizable
  */
 class CategorizableService implements CategorizableServiceContract
 {
